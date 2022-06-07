@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prioridades de css</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Las prioridades para aplicar estilos son:</h1>
+    <table cellspacing="0" cellpadding="10" border="1">
+        <tr class="superior">
+            <th>Prioridad #</th>
+            <th>Origen</th>
+            <th>Selector / Ejemplo</th>
+        </tr>
+        <tr>
+            <th> 1 </th>
+            <th> Estilos en el mismo elemento </th>
+            <th> style = "color:red;" </th>
+        </tr>
+        <tr>
+            <th> 2 </th>
+            <th> Hojas de estilo + !important </th>
+            <th> !important </th>
+        </tr>
+        <tr>
+            <th> 3 </th>
+            <th> Nested id </th>
+            <th> h1#cabecera1 </th>
+        </tr>
+        <tr>
+            <th> 4 </th>
+            <th> id </th>
+            <th> #cabecera1 </th>
+        </tr>
+        <tr>
+            <th> 5 </th>
+            <th> nested class </th>
+            <th> h1.parrafos_rojos </th>
+        </tr>
+        <tr>
+            <th> 6 </th>
+            <th> Class </th>
+            <th> .parrafos_rojos </th>
+        </tr>
+        <tr>
+            <th> 7 </th>
+            <th> Html </th>
+            <th> h1 </th>
+        </tr>
+        
+
+
+    </table>
+
+</body>
+</html>

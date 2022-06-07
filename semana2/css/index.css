@@ -1,0 +1,22 @@
+
+h1{
+    font-family: Helvetica;
+}
+
+.p{
+    font-family: Dank mono;
+    font-size: 100px;
+    font-weight: bold;
+    /* su rango es de 100 a 900 y no es necesario
+    poner unidades de medida*/
+}
+
+.link-a {
+    font-size: ;
+    font-family: ;
+    text-decoration: none;
+
+    color: rgb(53, 146, 239);
+
+
+}
