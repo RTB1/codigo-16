@@ -1,0 +1,34 @@
+
+.bandera{
+    height: 100vh;
+    border: solid;
+    position: relative;
+}
+
+
+.red {
+    height: 100vh;
+    background-color: red;
+    width: 60%;
+    float: right;
+
+}
+
+.green {
+    height: 100vh;
+    background-color: green;
+    width: 40%;
+    float: left;
+}
+
+.escudo{
+    height: 200px;
+    width: 200px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Coat_of_arms_of_Portugal_%28Lesser%29.svg/180px-Coat_of_arms_of_Portugal_%28Lesser%29.svg.png");
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: calc(50% - 100px);
+    left: calc(40% - 100px);
+
+}

@@ -1,0 +1,58 @@
+
+
+body {
+margin-left: 48px;
+margin-right: 48px;
+font-size: 20px;
+}
+
+
+p {
+    text-align: center; 
+}
+
+.small {
+    font-size: 0.6em;
+}
+
+.solid {
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+}
+
+.dashed{
+    border-style: dashed;
+    border-color: green;
+    border-width: 2px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.dotted{
+    border: 3px dotted blue;
+
+}
+
+.groove{
+    border-style: groove;
+}
+
+.ridge{
+    border-style: ridge;
+}
+
+#bnuevo:hover {
+    color:blue;
+    border-style: hidden;
+}
+
+.left_solid {
+    border-left: solid red 2px;
+}
+
+.right_dotted {
+    border-right: dotted purple 2px;
+}
+

@@ -1,0 +1,49 @@
+body {
+    background-color: gray
+}
+
+#contenedor {
+
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(to right, red 33.3%, white 33.3%, white 66.6%, red 66.6%);
+    margin: auto;
+   
+}
+
+#contenedor:hover {
+
+    background: linear-gradient(red 33.3%, white 33.3%, white 66.6%, red 66.6%);
+}
+
+
+.sombra {
+    box-shadow: 20px 20px 0px 0px;
+    
+}
+
+.texto-sombra{
+    text-shadow: 10px 10px 5px black ;
+}
+
+#circulo {
+    width: 200px;
+    height: 200px;
+    margin: 60px auto;
+    background: radial-gradient(white, red);
+    border-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    filter: blur(10px) opacity(0.45);
+
+}
+
+h1 {
+    border: 1px black solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1:hover {
+    text-decoration: underline;
+}

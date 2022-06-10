@@ -1,10 +1,14 @@
 
 h1{
-    font-family: Helvetica;
+    font-family: "Jost";
+    font-size: 100;
+    font-weight: bold;
+
 }
 
-.p{
-    font-family: Dank mono;
+p{
+
+    font-family: 'Amatic SC', cursive;
     font-size: 100px;
     font-weight: bold;
     /* su rango es de 100 a 900 y no es necesario
@@ -15,8 +19,66 @@ h1{
     font-size: ;
     font-family: ;
     text-decoration: none;
-
     color: rgb(53, 146, 239);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    background-color: rgb(53, 146, 239, 0.3);
+}
+
+.span-1 {
+    text-decoration: line-through;
+    text-transform: capitalize;
+}
+
+.span-2 {
+    text-decoration: overline;
+}
+
+.span-3 {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.span-4 {
+    text-decoration: line-through;
+    text-decoration-color:red;
+}
 
 
+.span-5 {
+    text-decoration: overline;
+    background-color: #0ba;
+    text-decoration-color: #fff;
+}
+
+.span-6 {
+    text-decoration: underline;
+    background-color: rgb(252, 90, 255);
+    text-decoration-color: yellow;
+    color:#fff;
+    /* Estamos indicando que el texto sea en minuscula*/
+    text-transform: lowercase;
+}
+
+
+/*Para que CSS pueda leer una fuente desde un archivo
+tenemos que @font-face esto nos permite cargar una fuente
+externa y darle un nombre para su uso*/
+
+@font-face {
+/* En este caso font-family es el nombre de la fuente*/
+font-family: "Righteous";
+/* src -> es el lugar donde está alojada la fuente */
+src: url(".../fonts/Righteous-Regylar.ttf")
+
+
+}
+
+.title-1{
+    font-family: "Righteous";
 }
